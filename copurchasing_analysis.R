@@ -115,7 +115,6 @@ colnames(statistic_frame)[1] <- "id"
 # a.	Neighbors’ mean rating (nghb_mn_rating)
 # b.	Neighbors’ mean salesrank (nghb_mn_salesrank)
 # c.	Neighbors’ mean number of reviews (nghb_mn_review_cnt)
-# Note: you may recall the functions in “dplyr” such as group_by, inner_join, summarize, mean, etc.
 
 # books dataset with only IDs that appear in the subcoponant of product 33
 sub_books <- subset(books,books$id %in% sub2$name)
